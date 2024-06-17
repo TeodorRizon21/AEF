@@ -4,7 +4,7 @@ import Styles from '../styles/contact.css'
 import { IoIosPin } from "react-icons/io";
 import { FaPhone } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
-
+import Link from 'next/link';
 const Contact = () => {
   return (
        
@@ -27,19 +27,20 @@ const Contact = () => {
               </div>
 
             </div>
-
+            <Link className="tel" href="tel:+40753030303">
             <div className="box flex">
              <div>
              <div className="icon p-8 rounded-full  bg-white"><FaPhone className="text-red-700 fa-solid fa-phone"/></div>
              </div>
-      
+
+           
               <div className="text text-white">
                 <h3 className="tlf">Telefon</h3>
-                <p className="nr">0753 03 03 03</p>
+                <p className="nr underline">0753 03 03 03</p>
               </div>
-
+             
             </div>
-
+            </Link>
 
             <div className="box flex">
               <div>
