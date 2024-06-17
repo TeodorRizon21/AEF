@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header2 from "@/components/Header2";
 import Footer from "@/components/Footer";
+import WhatsappBtn from "@/components/WhatsappBtn";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
     <body className="bg-white">
         <Header2/>
         {children}
+        <WhatsappBtn/>
         <Footer/>
         </body>
     </html>

@@ -18,7 +18,7 @@ const page = () => {
       <h2 className='uppercase'>Recomandarea noastră</h2>
       <p>Uzura plăcuțelor de frână față depinde de stilul de condus și de tipul de trasee pe care le parcurgeți de regulă, acestea sunt expuse la uzură crescută în zonele urbane.</p>
 <p>Cu toate acestea, pentru siguranța dvs., vă recomandăm o verificare la fiecare 2 ani sau la aproximativ 20.000 km.</p>
-<p>Plăcuțele de frână față stânga și dreapta trebuie întotdeauna schimbate în același timp pentru a asigura o distribuție echilibrată a frânei. Dacă auziți un fluierat când frânați, acesta ar putea fi un simptom al discurilor de frână uzate.</p>
+<p>Dacă auziți un fluierat/scârțâit când frânați, acesta ar putea fi un simptom al discurilor de frână uzate.</p>
 
   </div>
 

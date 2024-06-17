@@ -108,7 +108,11 @@
   font-size: 18px;
   border-radius: 5px;
 }
-
+@media (max-width: 1709px) {
+  .text {
+    font-size: 20px;
+  }
+}
 @media (max-width: 991px) {
   .container {
     flex-direction: column;
@@ -132,13 +136,16 @@
     font-size: 28px !important;
   }
   .text {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
 @media (max-width: 420px) {
+  .contactForm span {
+    font-size: 15px !important;
+  }
   .contactForm h2 {
-    font-size: 35px !important;
+    font-size: 28px !important;
   }
   .contact .content h2 {
     font-size: 50px;

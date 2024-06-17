@@ -10,8 +10,8 @@ const Contact = () => {
        
     <div id="contact" className="contact bg-red-700 pb-16 mt-16 py-16">
    <div className='flex flex-col gap-8'>
-        <h2 className='text-4xl text-center font-semibold text-white uppercase'>Contactează-ne!</h2>
-        <p className='text-2xl xs:text-xl xs:px-4 text-center text-white'>Te așteptăm la noi în locație sau ne poți contacta printr-una din metodele de mai jos!</p>
+        <h2 className='text-4xl xs:text-3xl text-center font-semibold text-white uppercase'>Contactează-ne!</h2>
+        <p className='text-2xl xs:text-lg xs:px-4 text-center text-white'>Te așteptăm la noi în locație sau ne poți contacta printr-una din metodele de mai jos!</p>
       </div>
     <div className='w-full px-8 4xl:flex 4xl:justify-center 4xl:mx-auto'>
     
@@ -23,7 +23,7 @@ const Contact = () => {
              
               <div className="text text-white">
                 <h3>Adresa</h3>
-                <p>Bulevardul Timisoara 161, Sector 6, Bucuresti, Romania</p>
+                <p>Bulevardul Timisoara 161-163, Sector 6, Bucuresti, Romania</p>
               </div>
 
             </div>

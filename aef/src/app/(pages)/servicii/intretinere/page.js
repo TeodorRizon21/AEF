@@ -22,7 +22,7 @@ const page = () => {
         <p className='text-xl font-semibold'>Cât de des se recomandă schimbarea uleiului?</p>
         <p className='text-xl'>Se recomandă întreținerea:</p>
     <ul>
-      <li className='text-xl font-semibold list-disc ml-8 '>la fiecare 30.000 km pentru motoarele diesel standard</li>
+      <li className='text-xl font-semibold list-disc ml-8 '>la fiecare 20.000 km pentru motoarele diesel standard</li>
       <li className='text-xl font-semibold list-disc ml-8 mt-2 '>la fiecare 15.000 km pentru motoarele pe benzină</li>
       <li className='text-xl font-semibold list-disc ml-8 mt-2 '>la fiecare 10.000 km pentru motoarele vechi de peste 10 ani</li>
 
