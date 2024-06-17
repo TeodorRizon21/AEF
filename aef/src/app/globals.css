@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+.arrow {
+  transition: transform 0.3s ease; /* Add smooth transition */
+}
+
+.componentServicii:hover .arrow {
+  transform: translateX(30px); /* Move arrow to the right on hover */
+}
+
+.btnRezultate {
+  width: 300px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  gap: 1rem;
+  border-radius: 5px;
+}
+
+/* Add this to your CSS file */
+.text-outline {
+  -webkit-text-stroke: 1px white; /* Adjust the width and color of the stroke as needed */
+  color: red; /* The fill color of the text */
+}
