@@ -6,7 +6,7 @@ import WhatsappBtn from "@/components/WhatsappBtn";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "AEF Motorsport",
+  title: "AEF - ÎNTREȚINEREA VEHICULELOR, ACCESIBILĂ TUTUROR",
   description: "Oferim servicii de reparații auto pentru gama Dacia-Renault și intervenții de orice fel, de la cele mecanice la schimbarea anvelopelor, pentru a oferi cele mai bune servicii la prețul corect.",
   
 };
